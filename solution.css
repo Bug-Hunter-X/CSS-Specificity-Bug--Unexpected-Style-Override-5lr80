@@ -1,0 +1,17 @@
+/* solution.css */
+
+/* Use more specific but appropriate selectors to avoid the specificity problem. */
+div p {
+  color: blue;
+}
+
+/* Or, if absolutely necessary and understood the implications, use !important (Use cautiously). */
+div p {
+  color: blue !important; /* Use sparingly, can hurt maintainability */
+}
+
+/* Avoid overly specific selectors unless absolutely needed */
+#myDiv > p:first-child {
+  /* Let's not use overly specific selectors */
+  color: green;
+}
