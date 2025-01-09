@@ -1,0 +1,1 @@
+The CSS code has a specificity issue where a more specific selector overrides a less specific one, unintentionally causing the styling to not be applied as expected.  For example, a `div p` selector might be overridden by an overly specific selector, such as `#myDiv > p:first-child`.
